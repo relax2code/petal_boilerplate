@@ -50,7 +50,7 @@ defmodule PetalBoilerplate.MixProject do
       {:jason, "~> 1.2"},
       {:plug_cowboy, "~> 2.5"},
       {:petal_components, "~> 0.5.0"},
-      {:rename, "~> 0.1.0"}
+      {:rename, "~> 0.1.0", only: :dev}
     ]
   end
 
